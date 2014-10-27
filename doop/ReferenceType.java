@@ -18,7 +18,6 @@ public class ReferenceType extends Type {
     public ReferenceType()
     {
         super();
-        this();
     }
 
 
@@ -29,7 +28,6 @@ public class ReferenceType extends Type {
     public ReferenceType(String fullyQualifiedName)
     {
         super(fullyQualifiedName);
-        this();
     }
 
 
@@ -41,7 +39,6 @@ public class ReferenceType extends Type {
      */
     public ReferenceType(String fullyQualifiedName, ClassType directSuperClass)
     {
-        super(fullyQualifiedname);
         this(directSuperclass, null);
     }
 
@@ -55,7 +52,6 @@ public class ReferenceType extends Type {
     public ReferenceType(String fullyQualifiedName, ClassType directSuperClass,
                          List<InterfaceType> directSuperInterfaces)
     {
-        super(fullyQualifiedName);
         this(directSuperClass, directSuperInterfaces);
     }
 
@@ -71,6 +67,7 @@ public class ReferenceType extends Type {
     public ReferenceType(ClassType directSuperClass,
                          List<InterfaceType> directSuperInterfaces)
     {
+        super(fullyQualifiedName);
         this.directSuperClass = directSuperClass;
         this.directSuperInterfaces = directSuperInterfaces;
     }
