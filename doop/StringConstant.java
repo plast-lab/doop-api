@@ -1,0 +1,3 @@
+class StringConstant extends HeapAllocation {
+
+}
