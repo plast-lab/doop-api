@@ -1,10 +1,10 @@
 package doop;
 
 public class AssignNumConstantInstruction extends AssignInstruction {
-    private NumConstant value = null;
+    private NumConstant refmode;
 
-    public class AssignNumConstantInstruction(NumConstant value) {
-        this.value = value;
+    public AssignNumConstantInstruction(NumConstant refmode) {
+        this.refmode = refmode;
     }
 
     public void setValue(NumConstant value) {

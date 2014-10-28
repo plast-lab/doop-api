@@ -1,9 +1,20 @@
 package doop;
-
-public LoadStaticFieldInstruction extends FieldInstruction {
+/**
+ *
+ * @author anantoni
+ */
+public class LoadStaticFieldInstruction extends FieldInstruction {
     private Var to;
 
-    public LoadStaticFieldInstruction(Var to) {
+
+    public LoadStaticFieldInstruction()
+    {
+        this();
+    }
+
+
+    public LoadStaticFieldInstruction(Var to)
+    {
         this.to = to;
     }
 

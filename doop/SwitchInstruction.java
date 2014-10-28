@@ -2,7 +2,7 @@ package doop;
 
 import java.util.Map;
 
-public class SwitchInstruction extends Instruction() {
+public class SwitchInstruction extends Instruction {
     private Var key;
     private Map<Integer,Integer> target = null;
     private int defaultTarget = -1;

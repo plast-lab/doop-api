@@ -1,6 +1,6 @@
 package doop;
 
-import package.util.List;
+import java.util.List;
 /**
  *
  * @author anantoni
