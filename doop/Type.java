@@ -26,7 +26,7 @@ public class Type
     }
 
 
-    /*
+    /**
      * Sets the fully qualified name of this type.
      *
      * @param fullyQualifiedName  the fully qualified name to set
